@@ -208,9 +208,9 @@ export const MOCK_PRODUCTS: Product[] = [
     colors: [
       { name: "Clear Hydro", hex: "#D6EAF8" }
     ],
-    primaryImage: "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?auto=format&fit=crop&q=80&w=800",
+    primaryImage: "/src/assets/images/contact_lens_box_1786355825932.jpg",
     alternateImages: [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800"
+      "/src/assets/images/colored_contacts_1786355864244.jpg"
     ],
     suitableFaceShapes: ["Oval", "Round", "Square", "Heart", "Diamond", "Oblong"],
     dimensions: {
@@ -444,9 +444,9 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Ocean Sapphire Blue", hex: "#2E86C1" },
       { name: "Emerald Forest Green", hex: "#1E8449" }
     ],
-    primaryImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=800",
+    primaryImage: "/src/assets/images/colored_contacts_1786355864244.jpg",
     alternateImages: [
-      "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?auto=format&fit=crop&q=80&w=800"
+      "/src/assets/images/contact_lens_box_1786355825932.jpg"
     ],
     suitableFaceShapes: ["Oval", "Round", "Square", "Heart", "Diamond", "Oblong"],
     dimensions: {

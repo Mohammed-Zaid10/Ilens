@@ -125,12 +125,21 @@ export const EyeTestBookingView: React.FC<{ storeId?: string }> = ({ storeId }) 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
       {/* Header */}
-      <div className="bg-neutral-900 text-white p-6 sm:p-8 rounded-3xl border border-neutral-800 space-y-2 shadow-xl">
-        <span className="text-xs font-bold uppercase tracking-widest text-amber-400">In-Store Clinical Eye Care</span>
-        <h1 className="text-3xl font-black font-serif text-white">Schedule an Optometric Exam</h1>
-        <p className="text-xs text-neutral-300">
-          Book a 1:1 clinical exam with our licensed doctors using state-of-the-art corneal topography and 3D digital retinal imaging.
-        </p>
+      <div className="bg-neutral-900 text-white p-6 sm:p-8 rounded-3xl border border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+        <div className="space-y-2 max-w-xl">
+          <span className="text-xs font-bold uppercase tracking-widest text-amber-400">In-Store Clinical Eye Care</span>
+          <h1 className="text-3xl font-black font-serif text-white">Schedule an Optometric Exam</h1>
+          <p className="text-xs text-neutral-300 leading-relaxed">
+            Book a 1:1 clinical exam with our licensed doctors using state-of-the-art corneal topography, phoropter precision refraction, and 3D digital retinal imaging.
+          </p>
+        </div>
+        <div className="w-full md:w-56 h-36 rounded-2xl overflow-hidden border border-neutral-700/80 shrink-0 shadow-inner">
+          <img
+            src="/src/assets/images/eye_testing_machine_1786355850446.jpg"
+            alt="ILens Optometry Clinic Eye Exam Machine"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
 
       <form onSubmit={handleSubmitBooking} className="space-y-8">

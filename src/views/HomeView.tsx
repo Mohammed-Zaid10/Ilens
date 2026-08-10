@@ -229,7 +229,7 @@ export const HomeView: React.FC = () => {
             className="relative h-64 rounded-3xl overflow-hidden cursor-pointer group border border-neutral-200 shadow-sm"
           >
             <img
-              src="https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?auto=format&fit=crop&q=80&w=800"
+              src="/src/assets/images/contact_lens_box_1786355825932.jpg"
               alt="Contact Lenses"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -299,8 +299,8 @@ export const HomeView: React.FC = () => {
 
           <div className="w-full md:w-80 h-64 rounded-2xl overflow-hidden border border-neutral-800 shadow-lg shrink-0">
             <img
-              src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=800"
-              alt="ILens Store"
+              src="/src/assets/images/eye_testing_machine_1786355850446.jpg"
+              alt="ILens Optometry Eye Testing Clinic"
               className="w-full h-full object-cover"
             />
           </div>

@@ -12,7 +12,7 @@ export const MOCK_STORES: StoreLocation[] = [
     hours: "Mon - Sat: 10am - 8pm | Sun: 11am - 6pm",
     rating: 4.9,
     reviewsCount: 312,
-    imageUrl: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "/src/assets/images/store_optical_atelier_1786355885532.jpg",
     services: [
       "Comprehensive Digital Eye Exam",
       "Same-Day Glasses Crafting",
