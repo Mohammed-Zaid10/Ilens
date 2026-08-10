@@ -1,0 +1,23 @@
+# ILens Eyewear Robots.txt
+User-agent: *
+Allow: /
+Allow: /products
+Allow: /categories
+Allow: /stores
+Allow: /about
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+Allow: /returns
+Allow: /shipping
+
+# Disallow indexing of private customer and admin routes
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /account
+Disallow: /account/*
+Disallow: /checkout
+Disallow: /order-confirmation
+Disallow: /private/*
+
+Sitemap: https://ilens-eyewear.com/sitemap.xml

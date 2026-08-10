@@ -1,0 +1,6 @@
+{
+  "name": "ILens Eyewear",
+  "description": "Premium modern eyewear platform with AI Virtual Try-On, Face Shape Finder, Lens Customization, and Store Locator.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
