@@ -135,7 +135,7 @@ export const EyeTestBookingView: React.FC<{ storeId?: string }> = ({ storeId }) 
         </div>
         <div className="w-full md:w-56 h-36 rounded-2xl overflow-hidden border border-neutral-700/80 shrink-0 shadow-inner">
           <img
-            src="/src/assets/images/eye_testing_machine_1786355850446.jpg"
+            src="/images/eye_testing_machine.jpg"
             alt="ILens Optometry Clinic Eye Exam Machine"
             className="w-full h-full object-cover"
           />

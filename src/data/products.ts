@@ -208,9 +208,9 @@ export const MOCK_PRODUCTS: Product[] = [
     colors: [
       { name: "Clear Hydro", hex: "#D6EAF8" }
     ],
-    primaryImage: "/src/assets/images/contact_lens_box_1786355825932.jpg",
+    primaryImage: "/images/contact_lens_box.jpg",
     alternateImages: [
-      "/src/assets/images/colored_contacts_1786355864244.jpg"
+      "/images/colored_contacts.jpg"
     ],
     suitableFaceShapes: ["Oval", "Round", "Square", "Heart", "Diamond", "Oblong"],
     dimensions: {
@@ -444,9 +444,9 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Ocean Sapphire Blue", hex: "#2E86C1" },
       { name: "Emerald Forest Green", hex: "#1E8449" }
     ],
-    primaryImage: "/src/assets/images/colored_contacts_1786355864244.jpg",
+    primaryImage: "/images/colored_contacts.jpg",
     alternateImages: [
-      "/src/assets/images/contact_lens_box_1786355825932.jpg"
+      "/images/contact_lens_box.jpg"
     ],
     suitableFaceShapes: ["Oval", "Round", "Square", "Heart", "Diamond", "Oblong"],
     dimensions: {
